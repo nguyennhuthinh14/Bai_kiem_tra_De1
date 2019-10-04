@@ -1,0 +1,22 @@
+﻿<Window x:Class="Bai_kiem_tra_De1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Ten SV" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,0,0,0"/>
+        <Label Content="Ma so SV" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,43,0,0"/>
+        <Label Content="Diem mon Ngu van" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,86,0,0"/>
+        <Label Content="Diem mon Toan" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,133,0,0"/>
+        <Label Content="Ren luyen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,191,0,0"/>
+        <TextBox x:Name="txtTenSV" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="196,3,0,0"/>
+        <TextBox x:Name="txtMasoSV" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="196,46,0,0"/>
+        <TextBox x:Name="txtDiemmonNguvan" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="196,89,0,0"/>
+        <TextBox x:Name="txtDiemmonToan" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="196,136,0,0"/>
+        <RadioButton x:Name="rbGioi" Content="Gioi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="182,197,0,0"/>
+        <RadioButton x:Name="rbKha" Content="Kha" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="256,197,0,0"/>
+        <RadioButton x:Name="rbYeu" Content="Yeu" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="322,197,0,0"/>
+        <Button x:Name="btnKetqua" Content="Ket qua" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,254,0,0" ToolTip=""/>
+        <Button x:Name="btnHuy" Content="Huy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="285,254,0,0" ToolTip="btnHuy_Click"/>
+
+    </Grid>
+</Window>
